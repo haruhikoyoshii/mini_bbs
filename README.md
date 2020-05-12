@@ -12,7 +12,7 @@ __データベースを作成する__
 `$ source /*setupDB.sqlファイルをドラック&ドロップ*/`  
 
 __mini_bbsのディレクトリまで移動し、ビルトインサーバーを立ち上げる__  
-`php -S localhost:8000`  
+`$ php -S localhost:8000`  
 
 __以下のURLにアクセス__  
 http://localhost:8000
