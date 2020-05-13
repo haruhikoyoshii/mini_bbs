@@ -5,11 +5,11 @@ PHPの学習の為に制作したひとこと掲示板
 __動作させるにはMySQLが必要になります。__
 
 ## 使い方
-`git clone https://github.com/YosukeIMAI312/mini_bbs.git`
+`$ git clone https://github.com/YosukeIMAI312/mini_bbs.git`
 
 __データベースを作成する__  
 `$ mysql -u root`     
-`$ source /*setupDB.sqlファイルをドラック&ドロップ*/`  
+`$ source /*setupDB.sqlのパス*/`  
 
 __mini_bbsのディレクトリまで移動し、ビルトインサーバーを立ち上げる__  
 `$ php -S localhost:8000`  
